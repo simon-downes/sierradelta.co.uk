@@ -1,0 +1,8 @@
+{
+	"require": {
+		"google/recaptcha": "~1.1",
+		"swiftmailer/swiftmailer": "^6.0",
+		"simon-downes/spf-support": "dev-master"
+	},
+	"minimum-stability": "dev"
+}

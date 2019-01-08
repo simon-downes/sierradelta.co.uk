@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sierra Delta Consulting</title>
+
+    <meta name="description" content="Simon Downes - freelance Web Developer, DevOps Engineer and Sys Admin from Brighton, UK">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+</head>
+<body>
+
+<section class="hero is-info is-medium is-bold">
+    <div class="hero-head">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item brand" href="/">Sierra Delta Consulting</a>
+                    <span class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#services">Services</a>
+                        <a class="navbar-item" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="hero-body">
+        <div class="container ">
+            <h1 class="title">
+                Hi,<br>
+                I'm <strong>Simon</strong>, a freelance <strong>Web Developer</strong>,<br>
+                <strong>DevOps Engineer</strong> and <strong>Sys Admin</strong><br>
+                from Brighton, UK
+            </h1>
+            <h2 class="subtitle">I use technology to solve business problems</h2>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="intro">
+            <a name="services"></a>
+            <h2 class="title is-spaced">Services</h2>
+            <p class="subtitle">Technology can be applied to business problems in a myriad of ways; below are examples of some of the services I can provide.
+            If you're not sure what you need then <a href="#contact">get in touch</a> and we'll see how I can help.</p>
+        </div>
+        <div class="columns">
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <i class="fa fa-window-maximize"></i>
+                            <h4>Web Applications</h4>
+                            <p>From prototype to final product, I design and build elegant and effective web applications that are a pleasure to use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <i class="fa fa-cloud"></i>
+                            <h4>Infrastructure</h4>
+                            <p>I can deliver scalable and resilient cloud infrastructure to power the most demanding business applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <i class="fa fa-user"></i>
+                            <h4>Consultancy</h4>
+                            <p>I can review your existing solutions, provide guidance on current best practises and build a technical roadmap to help focus your efforts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <i class="fa fa-cogs"></i>
+                            <h4>Automation</h4>
+                            <p>Are you repeating the same tasks over and over again? I can help automate your workflow to save you time and money.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <i class="fa fa-line-chart"></i>
+                            <h4>Performance Optimisation</h4>
+                            <p>Do more with less. I can identify and remove the bottlenecks preventing your systems from reaching peak performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-content">
+                        <div class="content">
+                            <i class="fa fa-forward"></i>
+                            <h4>Modernisation</h4>
+                            <p>Fed up with spending money on a slow legacy IT system that doesn’t perform? I’ll plan and implement an update strategy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+
+        <div class="intro">
+            <a name="contact"></a>
+            <h2 class="title is-spaced">Contact</h2>
+            <p class="subtitle">
+                Whether you have project in mind, need some advice, or simply want to say hello, I'd love to hear from you.<br>
+                Email me at <a href="mailto:simon@sierradelta.co.uk">simon@sierradelta.co.uk</a> or fill out the form below...
+            </p>
+        </div>
+
+        <form action="/contact/contact.php" name="sentMessage" id="frmContact" class="contact-form">
+            <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <div class="control">
+                            <input id="contact-name" class="input is-medium" name="name" type="text" placeholder="Name">
+                            <span class="error">error</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="column has-text-right">
+                    <div class="field">
+                        <div class="control">
+                            <input id="contact-email" class="input is-medium" name="email" type="text" placeholder="Email">
+                            <span class="error">error</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <textarea id="contact-message" class="textarea is-medium" name="message" placeholder="How can I help?"></textarea>
+                    <span class="error">error</span>
+                </div>
+            </div>
+            <div class="field captcha">
+                <div class="g-recaptcha" data-sitekey="6LdIwUUUAAAAAJSOVWfHr5BOOqlDlQaehrvktk2g"></div>
+                <span class="error">error</span>
+            </div>
+            <div>
+                <button class="button is-info is-medium" id="sendMessageButton">Send Message</button>
+            </div>
+            <div class="message is-danger">
+                <div class="message-body">Sorry, it seems that an error occurred. Please try again later...</div>
+            </div>
+            <div class="message is-success">
+                <div class="message-body">Thanks for getting in touch, I'll get back to you shortly.</div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                © 2018 Sierra Delta Consulting Ltd
+            </div>
+            <div class="column has-text-right">
+                Registered Office 20-22 Wenlock Road, London, <span>N1 7GU</span><br>
+                Company Number: 11131103 (England and Wales)
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" crossorigin="anonymous"></script>
+<script async src="https://www.google.com/recaptcha/api.js"></script>
+<script async type="text/javascript" src="/js/main.js" crossorigin="anonymous"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121371816-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121371816-1');
+</script>
+
+</body>
+</html>

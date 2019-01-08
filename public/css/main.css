@@ -1,0 +1,129 @@
+html, body {
+    background: #F3F6FA;
+    font-family: 'Open Sans', serif;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.hero-body .title {
+    color: hsl(192,17%,99%) !important;
+    font-family: Poppins, sans serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.25em;
+}
+
+.hero-body .title strong {
+    font-weight: bold;
+}
+
+.hero-body .subtitle {
+    color: hsl(192,17%,99%) !important;
+    padding-top: 2rem;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.hero.is-info.is-bold {
+    background: #1778BC;
+}
+
+footer {
+    background: #1F2131;
+    color: #7286a0;
+    padding: 30px 0;
+}
+
+footer span {
+    white-space: nowrap;
+}
+
+section.services,
+section.contact {
+    padding: 5rem 1.5rem;
+}
+
+.box.cta {
+    border-radius: 0;
+    border-left: none;
+}
+
+.card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    min-height: 185px;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+}
+
+.card .fa {
+    float:left;
+    font-size: 26px;
+}
+
+.card .content h4 {
+    margin-left: 45px;
+    font-size: 22px;
+}
+
+.intro p.subtitle {
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+.contact .intro .title {
+    color: #fff;
+}
+
+.contact .intro .subtitle {
+    color: #7d91aa;
+}
+
+.contact {
+    background : #272938;
+    min-height: 300px;
+}
+
+.contact .subtitle a:hover {
+    color: #ddd;
+}
+
+.contact .subtitle a {
+    color:  #3273dc;
+}
+
+.contact form > .field  {
+    margin-bottom: 24px;
+}
+
+#frmContact {
+    margin-bottom: 1.5em;
+}
+
+#frmContact .error,
+#frmContact .message {
+    display: none;
+}
+
+#frmContact .error {
+    margin: 0.35em 0 0 0.9em;
+    font-size: 0.9em;
+    color: #ff0000;
+}
+
+#frmContact .message {
+    margin-top: 1.5em;
+}
+
+@media screen and (max-device-width: 768px) {
+
+    footer .has-text-right{
+        text-align: left !important;
+    }
+}
